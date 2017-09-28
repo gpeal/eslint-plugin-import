@@ -1,7 +1,7 @@
 export type MyType = string
 export enum MyEnum {
-  Foo
-  Bar
+  Foo,
+  Bar,
   Baz
 }
 export interface Foo {
@@ -11,7 +11,8 @@ export interface Foo {
 }
 
 export abstract class Bar {
-  foo(): Foo
+  abstract foo(): Foo
+
   method() {
     return "foo"
   }
