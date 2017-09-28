@@ -340,19 +340,15 @@ describe('ExportMap', function () {
         it('has exported function', function () {
           expect(imports.has('getFoo')).to.be.true
         })
-        
+
         it('has exported typedef', function () {
           expect(imports.has('MyType')).to.be.true
         })
-        
+
         it('has exported enum', function () {
           expect(imports.has('MyEnum')).to.be.true
         })
-        
-        it('has exported typedef', function () {
-          expect(imports.has('MyType')).to.be.true
-        })
-        
+
         it('has exported interface', function () {
           expect(imports.has('Foo')).to.be.true
         })
