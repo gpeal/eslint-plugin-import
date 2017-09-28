@@ -54,10 +54,10 @@ ruleTester.run('exports-last', rule, {
     test({
       code: `
         const foo = 'bar'
-        export default function foo () {
+        export default function bar () {
           const very = 'multiline'
         }
-        export const bar = true
+        export const baz = true
       `,
     }),
     // Many exports
