@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-import",
-  "version": "2.7.0-gpeal",
+  "version": "2.7.1-gpeal",
   "description": "Import with sanity.",
   "engines": {
     "node": ">=4"
